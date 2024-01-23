@@ -1,3 +1,5 @@
+/* for hover #52ab98 */
+
 html,
 body{
     height: 100%;
@@ -6,8 +8,6 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color: #666;
-
 }
 .mainimg{
     background-image: url(photos/hand.jpg);
@@ -28,7 +28,7 @@ body{
     text-transform: uppercase;
 }
 .maintext{
-    background: #313534;
+    background: #2b6777;
     color: #fff;
     padding: 20px;
 }
@@ -36,23 +36,23 @@ body{
     padding: 50px;
     text-align: center;
 }
-.intro, 
-.p2{
-    background-color: #f4f4f4;
+.intro{
+    background-color: #c8d8e4;
     color: black;
 }
 
 .service{
     display: flex;
     flex-wrap: nowrap;
+    background-color: #c8d8e4;
 }
 .service-heading{
-    margin-top: 30px;
-    /* background-color: green; */
+    background-color: #c8d8e4;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
     color: black;
+    display: grid;
 }
 .service .service-item{
     margin: 20px 20px 30px 60px;
@@ -66,9 +66,10 @@ body{
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
+    background-color: white;
 }
 .service .service-item .service-item-inner:hover{
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    box-shadow: 0 0 20px #2b6777;
 }
 .service .service-item .service-item-inner .icon{
     height: 60px;
@@ -85,22 +86,22 @@ body{
     color: var(--skin-color);
     transition: all 0.3s ease;
 }
-.service .service-item .service-item-inner:hover .icon{
+/* .service .service-item .service-item-inner:hover .icon{
     background-color: var(--skin-color);
-}
+} */
 .service .service-item .service-item-inner:hover .icon .fa-solid{
     font-size: 25px;
-    color: #ffffff;
+    color: #52ab98;
 }
 .service .service-item .service-item-inner h3{
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 15px;
     color: black;
     font-weight: 700;
     text-transform: capitalize;
 }
 .service .service-item .service-item-inner p{
-    font-size: 16px;
+    font-size: 17px;
     color: var(--text-black-700);
     line-height: 25px;
     color: rgb(0, 0, 0);
